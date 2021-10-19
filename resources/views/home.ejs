@@ -1,0 +1,43 @@
+
+
+      <section class="hero">
+          <div class="container">
+              <div class="row">
+                  <div class="col-6 hero-title">
+                      <span class="pb-5">Are you hungry ?</span>
+                      <h2>Don't Wait !</h2>
+                      <a class="btn mt-1" href="#">Order Now</a>
+                  </div>
+
+                  <div class="col-6 hero-img">
+                      <img src="/img/pizza.png"/>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <section id="menu" class="mb-5">
+          <div class="container">
+              <h1 class="font-weight-bold mt-4">All Pizzas</h1>
+               <div class="row">
+                  
+              <% pizzas.forEach((val) => { %>
+                <div class="col-3 card">
+                    <img src="/img/<%= val.image %>"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><%= val.name %></h5>
+                        <p><%= val.size %></p>
+                        <span class="mr-4"><%= val.price %>$</span>
+                        <a class="btn btn-primary add-cart" data-pizza="<%= JSON.stringify(val) %>">Add</a>
+                    </div>
+                </div>
+              <%  }) %>
+          
+
+
+               </div>
+          </div>
+      </section>
+</body>
+</html>

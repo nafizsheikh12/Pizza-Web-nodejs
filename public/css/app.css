@@ -1,0 +1,80 @@
+.navbar-nav{
+    margin-left: auto;
+
+}
+
+
+.ex-nav li a{
+     color:rgb(14, 12, 12) !important;
+     padding-right: 9px !important
+}
+
+.nav-cart {
+    background-color: rgb(245, 73, 4) !important;
+    padding: 5px 5px;
+    border-radius: 23px;
+}
+
+nav{
+    border-bottom: 1px solid;
+}
+
+.hero-title{
+    margin: auto !important;
+}
+
+.hero-img{
+    margin-top: 9px !important;
+}
+
+.hero-title span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero-title h2 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.hero-title a.btn {
+    background: #fb4a06;
+    color: #fff;
+    border-radius: 13px;
+}
+
+section.hero {
+    background: #efefef;
+}
+
+.card{
+    margin-bottom: 10px;
+   
+}
+
+.border-b{
+    border-bottom: 1px solid;
+    margin-top: 4rem;
+}
+
+
+img.w-25.cart-img {
+    width: 12% !important;
+}
+
+.pl-5.cart-title {flex: 1;margin: auto;margin-left: 16px;}
+
+span.cart-pc {
+    flex: 1;
+    font-weight: bold;
+    margin: auto;
+}
+
+span.cart-prize {
+    margin: auto;
+    font-weight: bold;
+}
+
+.total-end {
+    text-align: end;
+}
